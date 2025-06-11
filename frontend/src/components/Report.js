@@ -59,7 +59,7 @@ const ComprehensiveReportsDashboard = () => {
             setLoading(true);
             setError(null);
 
-            const response = await axios.get(`https://finwise-backend-latest2.onrender.com/api/reports/comprehensive/${userIdParam}`, {
+            const response = await axios.get(`https://fullstack-backend-kosy.onrender.com/api/reports/comprehensive/${userIdParam}`, {
                 withCredentials: true,
                 headers: {
                     'Content-Type': 'application/json'

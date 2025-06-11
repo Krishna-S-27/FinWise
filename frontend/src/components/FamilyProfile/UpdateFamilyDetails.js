@@ -68,7 +68,7 @@ const UpdateFamilyProfile = () => {
             }
 
             // Use exact same axios configuration as FamilyDetails
-            const response = await axios.get(`https://finwise-backend-latest2.onrender.com/api/familyProfile/${familyProfileId}`, {
+            const response = await axios.get(`https://fullstack-backend-kosy.onrender.com/api/familyProfile/${familyProfileId}`, {
                 withCredentials: true,
                 headers: {
                     'Content-Type': 'application/json'
@@ -129,7 +129,7 @@ const UpdateFamilyProfile = () => {
             // Use exact same axios configuration as FamilyDetails
             if (updateMode === 'financial') {
                 // Use PATCH for partial updates
-                await axios.patch(`https://finwise-backend-latest2.onrender.com/api/familyProfile/${familyProfileId}`, familyData, {
+                await axios.patch(`https://fullstack-backend-kosy.onrender.com/api/familyProfile/${familyProfileId}`, familyData, {
                     withCredentials: true,
                     headers: {
                         'Content-Type': 'application/json'
@@ -137,7 +137,7 @@ const UpdateFamilyProfile = () => {
                 });
             } else {
                 // Use PUT for full updates
-                await axios.put(`https://finwise-backend-latest2.onrender.com/api/familyProfile/${familyProfileId}`, familyData, {
+                await axios.put(`https://fullstack-backend-kosy.onrender.com/api/familyProfile/${familyProfileId}`, familyData, {
                     withCredentials: true,
                     headers: {
                         'Content-Type': 'application/json'

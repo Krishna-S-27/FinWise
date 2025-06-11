@@ -7,7 +7,7 @@ const AuthCallback = () => {
     const navigate = useNavigate();
 
     // Best Practice: Use an environment variable for the API URL
-    const API_URL = https://finwise-backend-latest2.onrender.com/api;
+    const API_URL = "https://finwise-backend-latest2.onrender.com/api";
 
     useEffect(() => {
         const handleAuthCallback = async () => {

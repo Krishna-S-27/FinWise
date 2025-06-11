@@ -53,7 +53,7 @@ const DynamicNavbar = () => {
             setError(null);
 
             // Fetch current user info
-            const userResponse = await axios.get('http://localhost:8080/api/auth/user', {
+            const userResponse = await axios.get('https://finwise-backend-latest2.onrender.com/api/auth/user', {
                 withCredentials: true,
                 timeout: 10000
             });
@@ -63,7 +63,7 @@ const DynamicNavbar = () => {
 
                 // Fetch family profile data
                 try {
-                    const familyResponse = await axios.get('http://localhost:8080/api/familyProfile', {
+                    const familyResponse = await axios.get('https://finwise-backend-latest2.onrender.com/api/familyProfile', {
                         withCredentials: true,
                         timeout: 10000
                     });
@@ -93,7 +93,7 @@ const DynamicNavbar = () => {
 
     const fetchNotifications = async () => {
         try {
-            const response = await axios.get('http://localhost:8080/api/notifications', {
+            const response = await axios.get('https://finwise-backend-latest2.onrender.com/api/notifications', {
                 withCredentials: true,
                 timeout: 5000
             });
@@ -121,7 +121,7 @@ const DynamicNavbar = () => {
 
     const markNotificationAsRead = async (notificationId) => {
         try {
-            await axios.patch(`http://localhost:8080/api/notifications/${notificationId}/read`, {}, {
+            await axios.patch(`https://finwise-backend-latest2.onrender.com/api/notifications/${notificationId}/read`, {}, {
                 withCredentials: true
             });
             setNotifications(prev =>

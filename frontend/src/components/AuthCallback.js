@@ -10,7 +10,7 @@ useEffect(() => {
 const handleAuthCallback = async () => {
 try {
 // Check user authentication status after OAuth callback
-const res = await axios.get("https://finwise-backend-latest2.onrender.com/api/auth/user", {
+const res = await axios.get("https://fullstack-backend-kosy.onrender.com/api/auth/user", {
 withCredentials: true
 });
 

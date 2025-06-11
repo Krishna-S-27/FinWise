@@ -22,6 +22,6 @@ public class CustomAuthenticationSuccessHandler implements AuthenticationSuccess
     }
 
     private void redirectBasedOnRole(CustomUserDetails userDetails,HttpServletResponse response) throws IOException {
-        response.sendRedirect("http://localhost:3000/auth/callback");
+        response.sendRedirect("https://finwise-msj9.onrender.com/auth/callback");
     }
 }

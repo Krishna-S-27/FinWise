@@ -18,7 +18,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/children")
-@CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true")
+@CrossOrigin(origins = "https://finwise-msj9.onrender.com/", allowCredentials = "true")
 @RequiredArgsConstructor
 public class ChildController {
 

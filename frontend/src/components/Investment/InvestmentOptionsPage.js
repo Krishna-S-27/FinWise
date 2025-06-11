@@ -3,7 +3,7 @@ import { TrendingUp, DollarSign, Shield, AlertTriangle, ExternalLink, Target, Za
 import DynamicNavbar from "../DynamicNavbar";
 
 // API Base URL Configuration
-const API_BASE_URL = 'https://finwise-backend-latest2.onrender.com';
+const API_BASE_URL = 'https://fullstack-backend-kosy.onrender.com';
 
 // Investment Options API
 const investmentAPI = {

@@ -4,7 +4,7 @@ import DynamicNavbar from "../DynamicNavbar";
 import axios from "axios";
 
 // API Configuration
-const API_BASE_URL = 'https://finwise-backend-latest2.onrender.com';
+const API_BASE_URL = 'https://fullstack-backend-kosy.onrender.com';
 
 const marriagePlanAPI = {
     async getAllPlans(familyProfileId) {

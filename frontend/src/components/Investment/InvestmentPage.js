@@ -4,7 +4,7 @@ import DynamicNavbar from "../DynamicNavbar";
 import axios from 'axios';
 
 // API endpoint
-const API_BASE_URL = 'http://localhost:8080';
+const API_BASE_URL = 'https://finwise-msj9.onrender.com';
 
 // API service with proper authentication
 const investmentAPI = {

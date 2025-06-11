@@ -4,7 +4,7 @@ import DynamicNavbar from "../DynamicNavbar";
 import axios from "axios";
 
 // API Base URL Configuration
-const API_BASE_URL = 'https://finwise-backend-latest2.onrender.com';
+const API_BASE_URL = 'https://fullstack-backend-kosy.onrender.com';
 
 // Enhanced Prediction API utility
 const predictionAPI = {

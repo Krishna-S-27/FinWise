@@ -35,7 +35,7 @@ const Login = () => {
         }
 
         try {
-            const response = await axios.post('http://localhost:8080/api/auth/login', formData, {
+            const response = await axios.post('https://finwise-backend-latest2.onrender.com/api/auth/login', formData, {
                 withCredentials: true
             });
 

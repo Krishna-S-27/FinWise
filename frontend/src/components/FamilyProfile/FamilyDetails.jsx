@@ -80,7 +80,7 @@ const FamilyDetails = () => {
 
         try {
             // Save family profile
-            const response = await axios.post('https://finwise-backend-latest2.onrender.com/api/familyProfile', familyData, {
+            const response = await axios.post('https://fullstack-backend-kosy.onrender.com/api/familyProfile', familyData, {
                 withCredentials: true,
                 headers: {
                     'Content-Type': 'application/json'

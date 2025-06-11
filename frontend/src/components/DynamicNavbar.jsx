@@ -109,7 +109,7 @@ const DynamicNavbar = () => {
 
     const handleLogout = async () => {
         try {
-            await axios.post('https://finwise-msj9.onrender.com/api/auth/logout', {}, {
+            await axios.post('https://finwise-backend-latest2.onrender.com/api/auth/logout', {}, {
                 withCredentials: true
             });
             navigate('/');

@@ -73,7 +73,7 @@ const Dashboard = () => {
 
             // Create axios instance with default config
             const apiClient = axios.create({
-                baseURL: 'http://localhost:8080/api',
+                baseURL: 'https://finwise-backend-latest2.onrender.com/api',
                 timeout: 10000,
                 withCredentials: true,
                 headers: {
